@@ -8,11 +8,17 @@ ruby '3.2.2'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.6'
 
-gem 'omniauth-facebook'
+gem 'omniauth-facebook', '~> 9.0'
+
+gem 'omniauth-rails_csrf_protection', '~> 1.0'
 
 gem 'devise', '~> 4.2'
 
 gem 'bootstrap', '~> 5.3.0.alpha3'
+
+gem 'image_processing', '>= 1.2'
+
+gem 'letter_opener', '~> 1.4', '>= 1.4.1'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
